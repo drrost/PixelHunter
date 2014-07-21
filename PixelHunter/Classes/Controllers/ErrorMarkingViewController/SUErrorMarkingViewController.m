@@ -12,9 +12,6 @@
 #import "SUMailShareController.h"
 #import "SUPixelHunterConstants.h"
 
-static CGFloat const kSUMinValidScale = 0.8f;
-static CGFloat const kSUMaxValidScale = 2.0f;
-static CGFloat const kSUScaleRestraintStartValue = 1.5f;
 static CGFloat const kSUMinimumViewSideSize = 25.0f;
 
 @interface SUErrorMarkingViewController () <UIGestureRecognizerDelegate,

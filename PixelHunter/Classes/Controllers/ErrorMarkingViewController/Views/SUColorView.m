@@ -9,7 +9,6 @@
 #import "SUColorView.h"
 #import "SUPixelHunterConstants.h"
 
-static CGFloat const kSUColorViewSize = 20.0f;
 static CGFloat const kSUColorCircleRadius = 10.0f;
 
 @implementation SUColorView

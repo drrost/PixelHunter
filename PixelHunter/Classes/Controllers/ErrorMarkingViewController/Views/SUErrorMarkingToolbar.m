@@ -10,7 +10,6 @@
 #import "SUPixelHunterConstants.h"
 #import "SUPixelHunterTheme.h"
 
-static CGFloat const kSUButtonIndent = 5.0f;
 static CGFloat const kSUButtonWidth = 65.0f;
 static CGFloat const kSUButtonHeight = 48.0f;
 

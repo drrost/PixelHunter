@@ -201,9 +201,9 @@ static CGFloat const kSUMaximumZoomScale = 40.0f;
 #pragma mark - UIImagePickerControllerDelegate
 
 - (void)imagePickerController:(UIImagePickerController *)picker
-        didFinishPickingImage:(UIImage *)image
-                  editingInfo:(NSDictionary *)editingInfo
+didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
+    UIImage *image = info[@"UIImagePickerControllerOriginalImage"];
     [self.imagePicker dismissViewControllerAnimated:YES completion:nil];
     self.gridRootView.gridUnderLayerView.mockupImageView.image = image;
     self.gridRootView.toolbar.slider.enabled = YES;
